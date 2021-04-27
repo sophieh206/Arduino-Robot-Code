@@ -1,5 +1,5 @@
 # Arduino-Robot-Code
-The final code that was used to get the arduino robot to function.
+The final code that was used to get the arduino robot for team nevada to function.
 
 #include <Servo.h>        // Include Servo Library
 #include <NewPing.h>      // Include Newping Library
