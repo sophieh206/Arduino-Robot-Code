@@ -39,6 +39,8 @@ void setup()
   delay(100);
   distance = readPing();
   delay(100);
+
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
@@ -80,6 +82,11 @@ void loop()
   }
 
     distance = readPing();
+
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making
+    
 }
 
 int lookRight()     // Look Right Function for Servo Motor
